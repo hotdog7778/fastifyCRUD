@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "fastifygg",
+  "version": "1.0.0",
+  "description": "## Fastify란?",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec node --import tsx src/1-basic/main.ts",
+    "start": "node build/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "pino-pretty": "^10.3.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fastify/mongodb": "^8.0.0",
+    "fastify": "^4.26.0"
+  }
+}
