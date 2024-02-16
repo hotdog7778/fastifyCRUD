@@ -9,6 +9,7 @@ CREATE TABLE `tb_post` (
 	`post_writer` VARCHAR(512) NOT NULL,
 	`post_pw` VARCHAR(512) NOT NULL,
 	`is_deleted` TINYINT NOT NULL DEFAULT 0,
+	`deleted_at` DATETIME NULL COMMENT 'ex) 2024-02-15 15:30:00',
 	PRIMARY KEY (`post_id`)
 )
 
